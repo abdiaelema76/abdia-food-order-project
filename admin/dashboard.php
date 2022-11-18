@@ -74,11 +74,11 @@ else
                         </li>
                         <li class="nav-label">Log</li>
                         <li> <a href="all_users.php">  <span><i class="fa fa-user f-s-20 "></i></span><span>Users</span></a></li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Restaurant</span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Restaurant Branches</span></a>
                             <ul aria-expanded="false" class="collapse">
-								<li><a href="all_restaurant.php">All Restaurant</a></li>
+								<li><a href="all_restaurant.php">All Restaurant Branches</a></li>
 								<li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restaurant.php">Add Restaurant</a></li>
+                                <li><a href="add_restaurant.php">Add Restaurant Branch</a></li>
                                 
                             </ul>
                         </li>
@@ -123,7 +123,7 @@ else
 													$rws=mysqli_num_rows($result);
 													
 													echo $rws;?></h2>
-                                    <p class="m-b-0">Restaurants</p>
+                                    <p class="m-b-0">Restaurant Branches</p>
                                 </div>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ else
 													$rws=mysqli_num_rows($result);
 													
 													echo $rws;?></h2>
-                                    <p class="m-b-0">Delivered Orders</p>
+                                    <p class="m-b-0">Served Orders</p>
                                 </div>
                             </div>
                         </div>
