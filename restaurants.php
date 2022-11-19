@@ -153,8 +153,8 @@ session_start();
                         </div>
                         <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
-                                    <p>199, Gandhi Road, New Delhi</p>
-                                    <h5>Phone: 75696XXXXX</a></h5> </div>
+                                    <p>North AirportRoad , Opposite Transami</p>
+                                    <h5>Phone: 0710573979</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
                                    <p>Join thousands of other restaurants who benefit from having partnered with us.</p>
