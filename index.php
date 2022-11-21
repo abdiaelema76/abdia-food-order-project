@@ -26,11 +26,11 @@ session_start();
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/icn.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/cfc.png" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurant branch <span class="sr-only"></span></a> </li>
                             
                            
 							<?php
@@ -75,7 +75,7 @@ session_start();
                                     <path d="M202.494 386h22c5.799 0 10.5-4.701 10.5-10.5s-4.701-10.5-10.5-10.5h-22c-5.799 0-10.5 4.701-10.5 10.5s4.701 10.5 10.5 10.5z"></path>
                                 </g>
                             </svg>
-                            <h4><span style="color:white;">1. </span>Choose Restaurant</h4> </div>
+                            <h4><span style="color:white;">1. </span>Choose Restaurant branch</h4> </div>
                 
                         <div class="step-item step2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewbox="0 0 380.721 380.721">
@@ -144,8 +144,8 @@ session_start();
                                                 <path d="M202.494 386h22c5.799 0 10.5-4.701 10.5-10.5s-4.701-10.5-10.5-10.5h-22c-5.799 0-10.5 4.701-10.5 10.5s4.701 10.5 10.5 10.5z" /> </g>
                                         </svg>
                                     </div>
-                                    <h3>Choose a restaurant</h3>
-                                    <p>We"ve got your covered with menus from a variety of delivery restaurants online.</p>
+                                    <h3>Choose a restaurant branch</h3>
+                                    <p>We"ve got your covered with menus from a different restaurant branches online.</p>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +185,7 @@ session_start();
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="title-block pull-left">
-                            <h4>Featured Restaurants</h4> </div>
+                            <h4>Restaurant branches</h4> </div>
                     </div>
                     <div class="col-sm-8">
                         <div class="restaurants-filter pull-right">
@@ -279,8 +279,8 @@ session_start();
                         </div>
                         <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
-                                    <p>199, Gandhi Road, New Delhi</p>
-                                    <h5>Phone: 75696XXXXX</a></h5> </div>
+                                    <p>North Airport Road, Near Transami</p>
+                                    <h5>Phone: 0710573979</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
                                    <p>Join thousands of other restaurants who benefit from having partnered with us.</p>
