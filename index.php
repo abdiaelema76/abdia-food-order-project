@@ -57,10 +57,10 @@ session_start();
 
         </header>
 
-        <section class="hero bg-image" data-image-src="images/img/pimg.jpg">
+        <section class="hero bg-image" data-image-src="images/bg.jpg">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
-                    <h1>Order Delivery & Take-Out </h1>
+                    <h1>Caribbean Food Court </h1>
                     
                     <div class="banner-form">
                         <form class="form-inline">

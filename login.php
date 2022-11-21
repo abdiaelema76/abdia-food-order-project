@@ -61,7 +61,7 @@
                 </div>
             </nav>
         </header>
-<div style=" background-image: url('images/img/pimg.jpg');">
+<div style=" background-image: url('images/bg.jpg');">
 
 <?php
 include("connection/connect.php"); 
@@ -154,7 +154,7 @@ if(isset($_POST['submit']))
                         </div>
                         <div class="col-xs-12 col-sm-4 address color-gray">
                             <h5>Address</h5>
-                            <p>1086 Stockert Hollow Road, Seattle</p>
+                            <p>North Airpot Road ,Near Transami</p>
                                     <h5>Phone: 75696969855</a></h5> </div>
                         <div class="col-xs-12 col-sm-5 additional-info color-gray">
                             <h5>Addition informations</h5>

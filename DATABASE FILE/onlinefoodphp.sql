@@ -68,7 +68,7 @@ INSERT INTO `dishes` (`d_id`, `rs_id`, `title`, `slogan`, `price`, `img`) VALUES
 (4, 1, 'Stuffed Jacket Potatoes', 'Deep fry whole potatoes in oil for 8-10 minutes or coat each potato with little oil. Mix the onions, garlic, tomatoes and mushrooms. Add yoghurt, ginger, garlic, chillies, coriander', '8.00', '62908d393465b.jpg'),
 (5, 2, 'Pink Spaghetti Gamberoni', 'Spaghetti with prawns in a fresh tomato sauce. This dish originates from Southern Italy and with the combination of prawns, garlic, chilli and pasta. Garnish each with remaining tablespoon parsley.', '21.00', '606d7491a9d13.jpg'),
 (6, 2, 'Cheesy Mashed Potato', 'Deliciously Cheesy Mashed Potato. The ultimate mash for your Thanksgiving table or the perfect accompaniment to vegan sausage casserole. Everyone will love it\'s fluffy, cheesy.', '5.00', '606d74c416da5.jpg'),
-(7, 2, 'Crispy Chicken Strips', 'Fried chicken strips, served with special honey mustard sauce.', '8.00', '606d74f6ecbbb.jpg'),
+(7, 2, 'Crispy Chicken Strips', 'Fried chicken strips, served with special honey mustard sauce.', '8.00', 'chicken sti.jpg'),
 (8, 2, 'Lemon Grilled Chicken And Pasta', 'Marinated rosemary grilled chicken breast served with mashed potatoes and your choice of pasta.', '11.00', '606d752a209c3.jpg'),
 (9, 3, 'Vegetable Fried Rice', 'Chinese rice wok with cabbage, beans, carrots, and spring onions.', '5.00', '606d7575798fb.jpg'),
 (10, 3, 'Prawn Crackers', '12 pieces deep-fried prawn crackers', '7.00', '606d75a7e21ec.jpg'),
@@ -137,10 +137,9 @@ CREATE TABLE `restaurant` (
 --
 
 INSERT INTO `restaurant` (`rs_id`, `c_id`, `title`, `email`, `phone`, `url`, `o_hr`, `c_hr`, `o_days`, `address`, `image`, `date`) VALUES
-(1, 1, 'North Street Tavern', 'nthavern@mail.com', '3547854700', 'www.northstreettavern.com', '8am', '8pm', 'mon-sat', '1128 North St, White Plains', '6290877b473ce.jpg', '2022-05-27 08:10:35'),
-(2, 2, 'Eataly', 'eataly@gmail.com', '0557426406', 'www.eataly.com', '11am', '9pm', 'Mon-Sat', '800 Boylston St, Boston', '606d720b5fc71.jpg', '2022-05-27 08:06:41'),
-(3, 3, 'Nan Xiang Xiao Long Bao', 'nanxiangbao45@mail.com', '1458745855', 'www.nanxiangbao45.com', '9am', '8pm', 'mon-sat', 'Queens, New York', '6290860e72d1e.jpg', '2022-05-27 08:04:30'),
-(4, 4, 'Highlands Bar & Grill', 'hbg@mail.com', '6545687458', 'www.hbg.com', '7am', '8pm', 'mon-sat', '812 Walter Street', '6290af6f81887.jpg', '2022-05-27 11:01:03');
+(1, 1, 'CFC Transami', 'cfctransami@gmail.com', '0710573979', 'www.cfctransami.com', '8am', '8pm', 'mon-sat', '1128 North Airport Road,Near Transami', 'cfctransami.jpg', '2022-11-17 08:10:35'),
+(2, 2, 'CFC Kobil', 'cfckobil@mail.com', '0799934993', 'www.cfckobil.com', '8am', '8pm', 'mon-sat', 'Cathrine Ndereba Road', 'cfckobil.jpg', '2022-11-17 08:04:30'),
+
 
 -- --------------------------------------------------------
 
@@ -159,10 +158,9 @@ CREATE TABLE `res_category` (
 --
 
 INSERT INTO `res_category` (`c_id`, `c_name`, `date`) VALUES
-(1, 'Continental', '2022-05-27 08:07:35'),
-(2, 'Italian', '2021-04-07 08:45:23'),
-(3, 'Chinese', '2021-04-07 08:45:25'),
-(4, 'American', '2021-04-07 08:45:28');
+(1, 'CFC Transami', '2022-11-17 08:07:35'),
+(2, 'CFC Kobil', '2022-11-17 08:45:25'),
+
 
 -- --------------------------------------------------------
 
@@ -188,13 +186,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `username`, `f_name`, `l_name`, `email`, `phone`, `password`, `address`, `status`, `date`) VALUES
-(1, 'eric', 'Eric', 'Lopez', 'eric@mail.com', '1458965547', 'a32de55ffd7a9c4101a0c5c8788b38ed', '87 Armbrester Drive', 1, '2022-05-27 08:40:36'),
-(2, 'harry', 'Harry', 'Holt', 'harryh@mail.com', '3578545458', 'bc28715006af20d0e961afd053a984d9', '33 Stadium Drive', 1, '2022-05-27 08:41:07'),
-(3, 'james', 'James', 'Duncan', 'james@mail.com', '0258545696', '58b2318af54435138065ee13dd8bea16', '67 Hiney Road', 1, '2022-05-27 08:41:37'),
-(4, 'christine', 'Christine', 'Moore', 'christine@mail.com', '7412580010', '5f4dcc3b5aa765d61d8327deb882cf99', '114 Test Address', 1, '2022-05-01 05:14:42'),
-(5, 'scott', 'Scott', 'Miller', 'scott@mail.com', '7896547850', '5f4dcc3b5aa765d61d8327deb882cf99', '63 Charack Road', 1, '2022-05-27 10:53:51'),
-(6, 'liamoore', 'Liam', 'Moore', 'liamoore@mail.com', '7896969696', '5f4dcc3b5aa765d61d8327deb882cf99', '122 Bleck Street', 1, '2022-05-27 12:57:00');
-
+(1, 'brian', 'Brian', 'Koech', 'brian@gmail.com', '0711234567', 'brian123', 'Fedha Estate', 1, '2022-11-17 08:40:36'),
+(2, 'linsey', 'Linsey', 'Agesa', 'linsey@gmail.com', '0712436577', 'linsey1234', 'kilimani', 1, '2022-11-17 08:41:07'),
+(3, 'mwanasiti', 'Mwana', 'Siti', 'mwanasiti@gmail.com', '0758545696', 'mwanasiti', 'Mukuru', 1, '2022-11-17 08:41:37'),
+(4, 'christine', 'Christine', 'lupuz', 'christine@gmail.com', '0741250010', 'christine', 'pipeline', 1, '2022-11-17 05:14:42'),
 -- --------------------------------------------------------
 
 --
