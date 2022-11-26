@@ -138,7 +138,7 @@ CREATE TABLE `restaurant` (
 
 INSERT INTO `restaurant` (`rs_id`, `c_id`, `title`, `email`, `phone`, `url`, `o_hr`, `c_hr`, `o_days`, `address`, `image`, `date`) VALUES
 (1, 1, 'CFC Transami', 'cfctransami@gmail.com', '0710573979', 'www.cfctransami.com', '8am', '8pm', 'mon-sat', '1128 North Airport Road,Near Transami', 'cfctransami.jpg', '2022-11-17 08:10:35'),
-(2, 2, 'CFC Kobil', 'cfckobil@mail.com', '0799934993', 'www.cfckobil.com', '8am', '8pm', 'mon-sat', 'Cathrine Ndereba Road', 'cfckobil.jpg', '2022-11-17 08:04:30'),
+(2, 2, 'CFC Kobil', 'cfckobil@mail.com', '0799934993', 'www.cfckobil.com', '8am', '8pm', 'mon-sat', 'Cathrine Ndereba Road', 'cfckobil.jpg', '2022-11-17 08:04:30');
 
 
 -- --------------------------------------------------------
@@ -159,7 +159,7 @@ CREATE TABLE `res_category` (
 
 INSERT INTO `res_category` (`c_id`, `c_name`, `date`) VALUES
 (1, 'CFC Transami', '2022-11-17 08:07:35'),
-(2, 'CFC Kobil', '2022-11-17 08:45:25'),
+(2, 'CFC Kobil', '2022-11-17 08:45:25');
 
 
 -- --------------------------------------------------------
@@ -189,7 +189,7 @@ INSERT INTO `users` (`u_id`, `username`, `f_name`, `l_name`, `email`, `phone`, `
 (1, 'brian', 'Brian', 'Koech', 'brian@gmail.com', '0711234567', 'brian123', 'Fedha Estate', 1, '2022-11-17 08:40:36'),
 (2, 'linsey', 'Linsey', 'Agesa', 'linsey@gmail.com', '0712436577', 'linsey1234', 'kilimani', 1, '2022-11-17 08:41:07'),
 (3, 'mwanasiti', 'Mwana', 'Siti', 'mwanasiti@gmail.com', '0758545696', 'mwanasiti', 'Mukuru', 1, '2022-11-17 08:41:37'),
-(4, 'christine', 'Christine', 'lupuz', 'christine@gmail.com', '0741250010', 'christine', 'pipeline', 1, '2022-11-17 05:14:42'),
+(4, 'christine', 'Christine', 'lupuz', 'christine@gmail.com', '0741250010', 'christine', 'pipeline', 1, '2022-11-17 05:14:42');
 -- --------------------------------------------------------
 
 --
