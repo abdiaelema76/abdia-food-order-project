@@ -158,8 +158,9 @@ hr {
   background-color: #eee;
 }
 
-.custom-control-input:disabled ~ .custom-control-description {
-  color: #76767;
+.custom-control-input:disabled ~ .custom-control-description 
+{
+  color: #fff;
 }
 
 .custom-control {
@@ -288,19 +289,19 @@ hr {
 }
 
 .b-l {
-  border-left: 1px solid #edeed;
+  border-left: 1px solid #edeede;
 }
 
 .b-r {
-  border-left: 1px solid #edeed;
+  border-left: 1px solid #edeede;
 }
 
 .b-t {
-  border-top: 1px solid #edeed;
+  border-top: 1px solid #edeede;
 }
 
 .b-b {
-  border-bottom: 1px solid #edeed;
+  border-bottom: 1px solid #edeede;
 }
 
 .b-b-0 {
@@ -833,9 +834,6 @@ hr {
   float: left;
 }
 
-@media (max-width: 543px) {
-  ...;
-}
 
 @media (min-width: 544px) and (max-width: 767px) {
   .food-item-wrap .right-text {
@@ -894,9 +892,6 @@ hr {
   }
 }
 
-@media (min-width: 1200px) {
-  ...;
-}
 
 /*============================================
 * Modal 
@@ -921,7 +916,7 @@ hr {
 }
 
 .cart-addon .food-item h6 {
-  /* margin: 0 0 2px 0; */
+  margin: 0 0 2px 0; 
 }
 
 .cart-addon .food-item h6 a {
@@ -948,7 +943,7 @@ button.close {
   cursor: pointer;
   background: 0 0;
   border: 0;
-  -webkit-appearance: none;
+  appearance: none;
   right: -15px;
   position: absolute;
   top: -15px;
@@ -971,15 +966,15 @@ How it works section
 -----------------------------------*/
 
 .how-it-works {
-  background-image: url(../images/city.png), url(../images/pattern.png);
-  background-repeat: repeat-x, repeat;
-  background-position: bottom, center;
+  background-image: url(../images/patn.png);
+  background-repeat: repeat;
+  background-position: center;
   padding: 90px 0;
   position: relative;
 }
 
 .how-it-works .text-xs-center > h2 {
-  color: #d8bea5;
+  color: #080401;
   margin-bottom: 50px;
 }
 
@@ -1003,13 +998,13 @@ How it works section
 
 .how-it-works p.pay-info {
   font-size: 16px;
-  color: #d8bea5;
+  color: #190d01;
   margin-top: 25px;
   text-align: center;
 }
 
 .how-it-works h3 {
-  color: #fff;
+  color: rgb(12, 0, 0);
 }
 
 /*-----------------------------------  
@@ -1017,7 +1012,7 @@ Steps
 -----------------------------------*/
 
 .how-it-works p {
-  color: #9c9da5;
+  color: #01020e;
 }
 
 .step .icon {
@@ -1112,9 +1107,6 @@ Steps
   }
 }
 
-@media (min-width: 1200px) {
-  ...;
-}
 
 /****** featured restaurants block *******/
 
@@ -1146,7 +1138,7 @@ Steps
   border: 1px solid #eaebeb;
   border-radius: 3px;
   padding: 15px;
-  background: #fafaf8;
+  background: #f1ebe7;
   float: left;
   width: 100%;
 }
@@ -1163,7 +1155,7 @@ Steps
 
 @media (min-width: 320px) and (max-width: 543px) {
   .restaurant-wrap {
-    /* text-align:center */
+    text-align:center ;
   }
   .featured-restaurants .restaurant-logo img {
     width: 85px;
@@ -1200,8 +1192,6 @@ Steps
   color: #5c4ac7;
 }
 
-.featured-restaurants .ratings .fa-star-o {
-}
 
 .restaurants-filter ul li {
   display: inline-block;
@@ -1408,7 +1398,7 @@ App section
 ============================*/
 
 footer {
-  background: url(../images/pattern.png) center repeat;
+  background: url(../images/nv.png) center repeat;
   padding: 90px 0;
   z-index: 1;
   position: relative;
@@ -1542,8 +1532,6 @@ footer li a {
   color: #fff;
 }
 
-.profile .right-text {
-}
 
 .profile-img {
   width: 24.7%;
@@ -2112,7 +2100,7 @@ a[aria-expanded="false"] .fa-angle-down {
   height: 28px;
   margin: 0 10px 10px 0;
   padding: 0 20px 0 15px;
-  -webkit-transition: all 0.4s;
+transition-property: all 0.4s;
   border: 1px solid #eaebeb;
   border-radius: 2px;
   background: #ffffff;
@@ -2122,7 +2110,7 @@ a[aria-expanded="false"] .fa-angle-down {
 
 .tag:after,
 .tag:before {
-  -webkit-transition: all 0.4s;
+  transition-property: all 0.4s;
   background: #fff;
 }
 
@@ -2257,7 +2245,7 @@ a[aria-expanded="false"] .fa-angle-down {
   width: 43%;
   display: inline-block;
   overflow: hidden;
-  float: left;
+  float: none;
   position: fixed;
   z-index: 10;
 }

@@ -225,7 +225,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label class="control-label">Price </label>
-                                                    <input type="text" name="price" value="<?php echo $roww['price'];?>"  class="form-control" placeholder="$">
+                                                    <input type="text" name="price" value="<?php echo $roww['price'];?>"  class="form-control" placeholder="ksh">
                                                    </div>
                                             </div>
                                  

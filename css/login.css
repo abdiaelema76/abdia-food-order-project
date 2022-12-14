@@ -23,10 +23,10 @@ body {
   font-size: 12px;
 }
 .pen-title span .fa {
-  color: #5c4ac7;
+  color: #844719;
 }
 .pen-title span a {
-  color: #5c4ac7;
+  color: #844719;
   font-weight: 600;
   text-decoration: none;
 }
@@ -37,20 +37,21 @@ body {
   background: #ffffff;
   max-width: 320px;
   width: 100%;
-  border-top: 5px solid #5c4ac7;
+  border-top: 5px solid #844719;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
 }
-.form-module .toggle {
-  cursor: pointer;
+.form-module .toggle 
+{
+ cursor: pointer;
   position: absolute;
   top: -0;
   right: -0;
-  background: #;
+  background: #844719;
   width: 30px;
   height: 30px;
   margin: -5px 0 0;
-  color: #ffffff;
+  color : #ffffff;
   font-size: 12px;
   line-height: 30px;
   text-align: center;
@@ -86,7 +87,7 @@ body {
 }
 .form-module h2 {
   margin: 0 0 20px;
-  color: #5c4ac7;
+  color: #844719;
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
@@ -99,16 +100,16 @@ body {
   margin: 0 0 20px;
   padding: 10px 15px;
   box-sizing: border-box;
-  font-wieght: 400;
+  font-weight: 400;
   transition: 0.3s ease;
 }
 .form-module input:focus {
-  border: 1px solid #5c4ac7;
+  border: 1px solid #06021b;
   color: #333333;
 }
 .form-module button {
   cursor: pointer;
-  background: #5c4ac7;
+  background: #cbc6ed;
   width: 100%;
   border: 0;
   padding: 10px 15px;

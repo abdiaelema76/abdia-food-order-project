@@ -38,7 +38,7 @@ else
             <div class="navbar-header">
                     <a class="navbar-brand" href="dashboard.php">
                         
-                        <span><img src="images/icn.png" alt="homepage" class="dark-logo" /></span>
+                        <span><img src="images/ct1.png" alt="" /></span>
                     </a>
                 </div>
 

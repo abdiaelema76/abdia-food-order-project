@@ -15,7 +15,7 @@
 	  <style type="text/css">
 	  #buttn{
 		  color:#fff;
-		  background-color: #5c4ac7;
+		  background-color: #844719;
 	  }
 	  </style>
 
@@ -95,7 +95,7 @@ if(isset($_POST['submit']))
   
 
 <div class="pen-title">
-  <
+  
 </div>
 
 <div class="module form-module">
@@ -157,8 +157,8 @@ if(isset($_POST['submit']))
                             <p>North Airpot Road ,Near Transami</p>
                                     <h5>Phone: 0710573979/a></h5> </div>
                         <div class="col-xs-12 col-sm-5 additional-info color-gray">
-                            <h5>Addition informations</h5>
-                           <p>Join thousands of other restaurants who benefit from having partnered with us.</p>
+                            <h5>THANK YOU!</h5>
+                           <p>We thank each and every one of our guests who dined with us.<br> Your loyalty has meant so much.<br>Caribbean Food Court will always be a speacial place.</p>
                         </div>
                     </div>
                 </div>

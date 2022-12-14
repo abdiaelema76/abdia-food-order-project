@@ -168,7 +168,7 @@ session_start();
 																					           <td>'.$rows['username'].'</td>
 																								<td>'.$rows['title'].'</td>
 																								<td>'.$rows['quantity'].'</td>
-																								<td>$'.$rows['price'].'</td>
+																								<td>ksh'.$rows['price'].'</td>
 																								<td>'.$rows['address'].'</td>';
 																								?>
 																								<?php 
@@ -181,13 +181,13 @@ session_start();
 																			  }
 																			   if($status=="in process")
 																			 { ?>
-																			<td> <button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span> On The Way!</button></td> 
+																			<td> <button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span> Order Confirmed!</button></td> 
 																			<?php
 																				}
 																			if($status=="closed")
 																				{
 																			?>
-																			<td> <button type="button" class="btn btn-primary" ><span  class="fa fa-check-circle" aria-hidden="true"></span> Delivered</button></td> 
+																			<td> <button type="button" class="btn btn-primary" ><span  class="fa fa-check-circle" aria-hidden="true"></span> Served</button></td> 
 																			<?php 
 																			} 
 																			?>

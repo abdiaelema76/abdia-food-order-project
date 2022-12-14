@@ -109,7 +109,7 @@ if(isset($_POST['submit'] ))
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Restaurant</span></a>
                             <ul aria-expanded="false" class="collapse">
 								<li><a href="all_restaurant.php">All Restaurants</a></li>
-								<li><a href="add_category.php">Add Category</a></li>
+								<li><a href="add_category.php">Add Restaurant Branch</a></li>
                                 <li><a href="add_restaurant.php">Add Restaurant</a></li>
                                 
                             </ul>
@@ -157,7 +157,7 @@ if(isset($_POST['submit'] ))
                             <div class="col-lg-12">
                         <div class="card card-outline-primary">
                             <div class="card-header">
-                                <h4 class="m-b-0 text-white">Add Restaurant Category</h4>
+                                <h4 class="m-b-0 text-white">Add Restaurant Branch</h4>
                             </div>
                                 <form action='' method='post' >
                                     <div class="form-body">
@@ -166,7 +166,7 @@ if(isset($_POST['submit'] ))
                                         <div class="row p-t-20">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label class="control-label">Category</label>
+                                                    <label class="control-label">Restaurant Branch</label>
                                                     <input type="text" name="c_name" class="form-control" >
                                                    </div>
                                             </div>
@@ -189,14 +189,14 @@ if(isset($_POST['submit'] ))
                        
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Listed Categories</h4>
+                                <h4 class="card-title">Listed Restaurant Branches</h4>
                              
                                 <div class="table-responsive m-t-40">
                                     <table id="myTable" class="table table-bordered table-hover table-striped">
                                         <thead class="thead-dark">
                                             <tr>
                                                 <th>ID</th>
-                                                <th>Category Name</th>
+                                                <th>Restaurant Branch Name</th>
                                                 <th>Date</th>
                                               
 												  <th>Action</th>
